@@ -500,6 +500,9 @@
         .animate {
             animation: fadeIn 0.6s ease forwards;
         }
+        
+        .g_id_signin {
+            margin: 10px 0; /* Add spacing if needed */}
     </style>
     <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
@@ -527,7 +530,7 @@
                              data-client_id="325467361331-38s9mufpb0t7vd6icr37cvh7pb822t06.apps.googleusercontent.com"
                              data-callback="handleCredentialResponse">
                         </div>
-                        <div class="g_id_signin" data-type="standard"></div>
+                        <div class="g_id_signin" data-type="standard" data-shape="pill" data-theme="outline" data-size="large"></div>
                     </div>
                     
                     <!-- User info display (when signed in) -->
@@ -554,7 +557,7 @@
                 </div>
             </div>
             <div class="hero-image animate">
-                <img src="https://raw.githubusercontent.com/adityakashyap10/Gamma/main/white-canvas.jpeg" alt="CloudFlow Dashboard">
+                <img src="gyo-canvas.jpeg" alt="CloudFlow Dashboard" style="width: 300px; height: auto;">
             </div>
         </div>
     </section>
